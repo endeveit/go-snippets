@@ -3,7 +3,7 @@ package config
 import (
 	"sync"
 
-	hc "github.com/endeveit/go-snippets/config"
+	hc "github.com/endeveit/go-snippets/cli"
 	c "github.com/robfig/config"
 )
 
