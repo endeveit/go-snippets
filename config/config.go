@@ -54,7 +54,7 @@ func Dump(conf *c.Config) string {
 		if options, err := conf.SectionOptions(section); err == nil {
 			for _, option := range options {
 				if value, err := conf.RawString(section, option); err == nil {
-					result = append(result, fmt.Sprintf("%s = %s\r\n", option, value))
+					result = append(result, fmt.Sprintf("%s = %s", option, value))
 				}
 			}
 		}
